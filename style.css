@@ -1,0 +1,50 @@
+*{
+    padding: 0 ;
+    margin: 0;
+}
+.hero-section{
+    background-image: url(mjgrand.jpg);
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, 0=0.5);
+    height:99vh;
+    position: relative;
+    text-align: center;
+    text-decoration: aqua;
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+</style>
+}
+.hero-text{
+    color: goldenrod;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.book-button,
+.know-button{
+    background-color: aqua;
+    font-size: 15px;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 10px;
+    cursor: pointer;
+}
+.amenities{
+    text-align: center;
+}
+.amenities ul{
+    display: inline-block;
+    text-align: left;
+    margin-top: 10px;
+}
+.about-us{
+    float: left;
+    width: 50%;
+    
+}
+.about-section > h1 {
+    text-align: center;
+    margin: 10px 0px;
+}
